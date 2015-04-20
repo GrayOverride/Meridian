@@ -3,4 +3,8 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="loan_contents">Har lånat</string>
+    <string name="person_label">Person</string>
+    <string name="send_button">Skicka</string>
+    <string name="register_new">Registrera lån</string>
 </resources>

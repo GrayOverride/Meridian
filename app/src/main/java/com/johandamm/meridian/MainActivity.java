@@ -1,5 +1,6 @@
 package com.johandamm.meridian;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -14,10 +15,12 @@ import com.google.zxing.integration.android.IntentResult;
 
 public class MainActivity extends ActionBarActivity {
 
+    private EditText personEditText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        personEditText = (EditText)findViewById(R.id.editText);
     }
 
 
@@ -64,5 +67,4 @@ public class MainActivity extends ActionBarActivity {
         return new PersonContext("mollyporph","Otto Remse","0737739799","Inget Team >:");
     }
 
-}
 }

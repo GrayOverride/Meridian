@@ -61,7 +61,7 @@
                 android:text="@string/loan_contents"
                 android:id="@+id/textView3"
                 android:layout_gravity="center_horizontal"
-                />
+                style="@android:style/Widget.Material.TextView" />
 
             <EditText
                 android:layout_width="match_parent"
